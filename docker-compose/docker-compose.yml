@@ -1,27 +1,2 @@
 version: "3.8"
-name: "product-command"
-
-services:
-  command-db:
-    extends:
-      file: databases.yml
-      service: command-db-setup
-  storage-pg-admin-postgres-ui:
-    extends:
-      file: databases.yml
-      service: storage-pg-admin-postgres-ui-setup
-  zookeeper:
-    extends:
-      file: brokers.yml
-      service: zookeeper_setup
-  kafka:
-    extends:
-      file: brokers.yml
-      service: kafka_setup
-
-volumes:
-  command_db_pg_data:
-  pgadmin-data:
-  zookeeper_data:
-  zookeeper_logs:
-  kafka_data:
+name: "product-query"

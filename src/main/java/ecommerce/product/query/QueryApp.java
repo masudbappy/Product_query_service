@@ -1,13 +1,13 @@
-package ecommerce.product.command;
+package ecommerce.product.query;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CommandApp {
+public class QueryApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CommandApp.class, args);
+		SpringApplication.run(QueryApp.class, args);
 	}
 
 }

@@ -1,10 +1,10 @@
-package ecommerce.product.command_service;
+package ecommerce.product.query_service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CommandAppTests {
+class QueryAppTests {
 
 	@Test
 	void contextLoads() {

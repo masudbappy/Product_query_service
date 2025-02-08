@@ -1,8 +1,0 @@
-package ecommerce.product.command.repository;
-
-import ecommerce.product.command.entity.Product;
-import org.springframework.data.jpa.repository.JpaRepository;
-
-public interface ProductRepository extends JpaRepository<Product, Long> {
-
-}

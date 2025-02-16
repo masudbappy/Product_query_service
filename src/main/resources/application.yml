@@ -1,6 +1,14 @@
 server:
-  port: 8082
+  port: 8083
 
 spring:
   application:
     name: product-query-service
+
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: localhost:9200
+      repositories:
+        enabled: true
+

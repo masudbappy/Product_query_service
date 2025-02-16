@@ -26,7 +26,8 @@ dependencies {
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 
 	// Database
-
+	implementation 'org.springframework.boot:spring-boot-starter-data-elasticsearch'
+	implementation 'org.elasticsearch.client:elasticsearch-rest-high-level-client:7.16.1'
 
 	// Events
 	implementation group: 'org.springframework.kafka', name: 'spring-kafka'
